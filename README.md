@@ -223,16 +223,3 @@ isSouthChinaSea:false,//默认不显示南海，改为true可显示南海
 ```vue
 {{10.23123|montionFilter }}
 ```
-
-##  大屏交流反馈（面条的群）
-
-### 大屏QQ群
-
-QQ群号：713105837
-
-### 大屏二维码
-
-QQ群二维码：
-
-![输入图片说明](https://gitee.com/MTrun/big-screen-vue-datav/raw/master/public/image.png)
-
