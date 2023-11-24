@@ -9,7 +9,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from './router'
 import store from './store'
-import {loading,borderBox13,borderBox10,borderBox12,digitalFlop,capsuleChart,borderBox8} from '@jiaminghi/data-view'
+import {loading,borderBox13,borderBox10,borderBox12,digitalFlop,capsuleChart,borderBox8,flylineChartEnhanced,activeRingChart} from '@jiaminghi/data-view'
 import { Radio,Button,RadioGroup } from 'element-ui'
 import Echart from './components/echart/index.vue'
 import ItemWrap from './components/item-wrap/item-wrap.vue'
@@ -32,6 +32,7 @@ Vue.component("ItemWrap",ItemWrap)
 Vue.component("Message",Message)
 Vue.component("Reacquire",Reacquire)
 Vue.prototype.$Message =  Messages
+
 // element组件
 Vue.use(Radio);
 Vue.use(Button);
@@ -45,6 +46,9 @@ Vue.use(borderBox12)
 Vue.use(borderBox10)
 Vue.use(digitalFlop)
 Vue.use(capsuleChart)
+Vue.use(activeRingChart)
+Vue.use(flylineChartEnhanced)
+
 // 全局数据过滤器
 Object.keys(filters).forEach(k => Vue.filter(k, filters[k]));
 new Vue({
