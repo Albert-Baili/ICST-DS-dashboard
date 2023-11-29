@@ -15,16 +15,16 @@
             <div class="dibu"></div>
             <div class="flex">
               <div class="info">
-                <span class="labels ">设备ID：</span>
-                <span class="contents zhuyao"> {{ item.gatewayno }}</span>
+                <span class="labels ">识别字段：</span>
+                <span class="contents zhuyao"> {{ item.ziduan }}</span>
               </div>
               <div class="info">
-                <span class="labels">型号：</span>
-                <span class="contents "> {{ item.terminalno }}</span>
+                <span class="labels">敏感级别：</span>
+                <span class="contents "> {{ item.minganchengdu }}</span>
               </div>
               <div class="info">
-                <span class="labels">告警值：</span>
-                <span class="contents warning"> {{ item.alertvalue | montionFilter }}</span>
+                <span class="labels">脱敏方法：</span>
+                <span class="contents warning"> {{ item.tuominmethod}}</span>
               </div>
             </div>
 
@@ -32,20 +32,20 @@
             <div class="flex">
 
               <div class="info">
-                <span class="labels"> 地址：</span>
-                <span class="contents ciyao" style="font-size:12px"> {{ item.provinceName }}/{{ item.cityName }}/{{ item.countyName }}</span>
+                <span class="labels"> 来源：</span>
+                <span class="contents ciyao" style="font-size:12px"> {{ item.source }}**.csv</span>
               </div>
               <div class="info time">
                 <span class="labels">时间：</span>
-                <span class="contents" style="font-size:12px"> {{ item.createtime }}</span>
+                <span class="contents" style="font-size:12px"> {{ item.time }}</span>
               </div>
 
             </div>
             <div class="flex">
 
               <div class="info">
-                <span class="labels">报警内容：</span>
-                <span class="contents ciyao" :class="{ warning: item.alertdetail }"> {{ item.alertdetail || '无'
+                <span class="labels">脱敏后内容：</span>
+                <span class="contents ciyao" :class="{ warning: item.alertdetail }"> {{ item.aftertuomin || '无'
                 }}</span>
               </div>
             </div>
@@ -98,8 +98,8 @@ export default {
     getData() {
       this.pageflag = true
       // this.pageflag =false
-      currentGET('big5', { limitNum: 50 }).then(res => {
-        console.log('实时预警', res);
+      currentGET('gettuolinLists', { }).then(res => {
+        console.log('脱敏列表', res);
         if (res.success) {
           this.list = res.data.list
           let timer = setTimeout(() => {

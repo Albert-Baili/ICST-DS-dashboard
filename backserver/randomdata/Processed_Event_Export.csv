@@ -1,0 +1,101 @@
+EventId|EventTimeStamp|SCADA_Category|AOR|Priority_Code|Substation|DeviceType|event_message
+1|2017-05-7 3:7:48|Power Outage|ESA_4373|2|Substation239|Transformer|Event 1 occurred at 2017-05-7 3:7:48 - Power Outage detected.
+2|2017-05-13 0:16:22|Overload|NWT_7924|8|Substation250|Transformer|Event 2 occurred at 2017-05-13 0:16:22 - Overload detected.
+3|2017-05-23 17:51:44|Equipment Failure|NOS_5727|5|Substation598|Generator|Event 3 occurred at 2017-05-23 17:51:44 - Equipment Failure detected.
+4|2017-05-26 12:53:12|Power Outage|SAA_7604|8|Substation670|Transformer|Event 4 occurred at 2017-05-26 12:53:12 - Power Outage detected.
+5|2017-05-28 19:23:48|Power Outage|BHH_8698|4|Substation805|Circuit Breaker|Event 5 occurred at 2017-05-28 19:23:48 - Power Outage detected.
+6|2017-05-7 7:21:31|Voltage Fluctuation|DGB_7979|6|Substation180|Circuit Breaker|Event 6 occurred at 2017-05-7 7:21:31 - Voltage Fluctuation detected.
+7|2017-05-11 8:54:4|Equipment Failure|YCE_0670|3|Substation338|Switchgear|Event 7 occurred at 2017-05-11 8:54:4 - Equipment Failure detected.
+8|2017-05-25 8:33:8|Equipment Failure|HZY_0799|3|Substation713|Transformer|Event 8 occurred at 2017-05-25 8:33:8 - Equipment Failure detected.
+9|2017-05-4 11:49:10|Equipment Failure|BHH_8698|3|Substation399|Transformer|Event 9 occurred at 2017-05-4 11:49:10 - Equipment Failure detected.
+10|2017-05-8 9:0:28|Voltage Fluctuation|VGW_0374|8|Substation758|Transformer|Event 10 occurred at 2017-05-8 9:0:28 - Voltage Fluctuation detected.
+11|2017-05-30 7:44:32|Voltage Fluctuation|ZZK_5940|2|Substation539|Switchgear|Event 11 occurred at 2017-05-30 7:44:32 - Voltage Fluctuation detected.
+12|2017-05-31 14:50:52|Equipment Failure|DPH_2341|7|Substation593|Switchgear|Event 12 occurred at 2017-05-31 14:50:52 - Equipment Failure detected.
+13|2017-05-21 5:15:28|Power Outage|PSC_1349|2|Substation435|Transformer|Event 13 occurred at 2017-05-21 5:15:28 - Power Outage detected.
+14|2017-05-27 5:3:55|Voltage Fluctuation|EGG_1599|6|Substation748|Circuit Breaker|Event 14 occurred at 2017-05-27 5:3:55 - Voltage Fluctuation detected.
+15|2017-05-29 11:16:50|Voltage Fluctuation|UOQ_2955|5|Substation292|Transformer|Event 15 occurred at 2017-05-29 11:16:50 - Voltage Fluctuation detected.
+16|2017-05-6 2:0:45|Voltage Fluctuation|LAV_6220|3|Substation222|Transformer|Event 16 occurred at 2017-05-6 2:0:45 - Voltage Fluctuation detected.
+17|2017-05-31 15:44:17|Power Outage|SWS_3719|3|Substation986|Generator|Event 17 occurred at 2017-05-31 15:44:17 - Power Outage detected.
+18|2017-05-5 6:6:35|Voltage Fluctuation|VGX_9960|8|Substation272|Transformer|Event 18 occurred at 2017-05-5 6:6:35 - Voltage Fluctuation detected.
+19|2017-05-29 14:17:0|Equipment Failure|ZMC_0632|3|Substation367|Circuit Breaker|Event 19 occurred at 2017-05-29 14:17:0 - Equipment Failure detected.
+20|2017-05-1 6:2:53|Power Outage|BBU_4185|8|Substation676|Generator|Event 20 occurred at 2017-05-1 6:2:53 - Power Outage detected.
+21|2017-05-29 15:16:14|Voltage Fluctuation|BVM_3234|8|Substation652|Circuit Breaker|Event 21 occurred at 2017-05-29 15:16:14 - Voltage Fluctuation detected.
+22|2017-05-6 11:1:28|Power Outage|KGI_6843|7|Substation153|Switchgear|Event 22 occurred at 2017-05-6 11:1:28 - Power Outage detected.
+23|2017-05-26 6:14:20|Overload|ZSP_7519|2|Substation240|Generator|Event 23 occurred at 2017-05-26 6:14:20 - Overload detected.
+24|2017-05-23 4:39:40|Power Outage|VYV_2253|4|Substation962|Generator|Event 24 occurred at 2017-05-23 4:39:40 - Power Outage detected.
+25|2017-05-24 8:34:13|Equipment Failure|KBU_9918|4|Substation384|Generator|Event 25 occurred at 2017-05-24 8:34:13 - Equipment Failure detected.
+26|2017-05-23 22:21:43|Power Outage|WUO_2073|5|Substation697|Switchgear|Event 26 occurred at 2017-05-23 22:21:43 - Power Outage detected.
+27|2017-05-19 9:24:17|Voltage Fluctuation|DZH_7915|5|Substation585|Transformer|Event 27 occurred at 2017-05-19 9:24:17 - Voltage Fluctuation detected.
+28|2017-05-11 21:4:11|Voltage Fluctuation|NJA_5384|4|Substation955|Generator|Event 28 occurred at 2017-05-11 21:4:11 - Voltage Fluctuation detected.
+29|2017-05-19 9:11:7|Equipment Failure|ESV_4435|5|Substation939|Circuit Breaker|Event 29 occurred at 2017-05-19 9:11:7 - Equipment Failure detected.
+30|2017-05-23 12:31:41|Voltage Fluctuation|UZU_0995|4|Substation490|Generator|Event 30 occurred at 2017-05-23 12:31:41 - Voltage Fluctuation detected.
+31|2017-05-13 12:39:47|Overload|FUH_7140|6|Substation571|Switchgear|Event 31 occurred at 2017-05-13 12:39:47 - Overload detected.
+32|2017-05-9 20:55:40|Equipment Failure|YOJ_6188|5|Substation374|Transformer|Event 32 occurred at 2017-05-9 20:55:40 - Equipment Failure detected.
+33|2017-05-3 4:5:27|Equipment Failure|OTU_1958|2|Substation196|Circuit Breaker|Event 33 occurred at 2017-05-3 4:5:27 - Equipment Failure detected.
+34|2017-05-4 16:31:51|Equipment Failure|YUZ_9031|8|Substation935|Generator|Event 34 occurred at 2017-05-4 16:31:51 - Equipment Failure detected.
+35|2017-05-31 6:12:19|Overload|DPQ_1096|1|Substation171|Circuit Breaker|Event 35 occurred at 2017-05-31 6:12:19 - Overload detected.
+36|2017-05-20 19:28:53|Power Outage|XHV_7143|4|Substation731|Switchgear|Event 36 occurred at 2017-05-20 19:28:53 - Power Outage detected.
+37|2017-05-1 6:49:28|Voltage Fluctuation|OWQ_1352|8|Substation164|Switchgear|Event 37 occurred at 2017-05-1 6:49:28 - Voltage Fluctuation detected.
+38|2017-05-19 21:18:39|Voltage Fluctuation|RTW_2787|3|Substation317|Circuit Breaker|Event 38 occurred at 2017-05-19 21:18:39 - Voltage Fluctuation detected.
+39|2017-05-11 7:41:45|Overload|ZPH_0863|3|Substation392|Switchgear|Event 39 occurred at 2017-05-11 7:41:45 - Overload detected.
+40|2017-05-19 15:23:10|Power Outage|FIP_3112|6|Substation302|Generator|Event 40 occurred at 2017-05-19 15:23:10 - Power Outage detected.
+41|2017-05-20 11:37:18|Equipment Failure|PPW_2807|6|Substation336|Generator|Event 41 occurred at 2017-05-20 11:37:18 - Equipment Failure detected.
+42|2017-05-16 3:26:59|Equipment Failure|YML_7619|4|Substation151|Generator|Event 42 occurred at 2017-05-16 3:26:59 - Equipment Failure detected.
+43|2017-05-7 5:26:39|Voltage Fluctuation|HMD_2969|5|Substation750|Generator|Event 43 occurred at 2017-05-7 5:26:39 - Voltage Fluctuation detected.
+44|2017-05-7 19:8:18|Equipment Failure|KRC_9753|2|Substation634|Circuit Breaker|Event 44 occurred at 2017-05-7 19:8:18 - Equipment Failure detected.
+45|2017-05-8 12:56:48|Equipment Failure|FYR_8171|7|Substation774|Circuit Breaker|Event 45 occurred at 2017-05-8 12:56:48 - Equipment Failure detected.
+46|2017-05-20 22:20:40|Equipment Failure|DKQ_8881|7|Substation941|Generator|Event 46 occurred at 2017-05-20 22:20:40 - Equipment Failure detected.
+47|2017-05-11 7:3:55|Equipment Failure|JRI_6189|3|Substation507|Generator|Event 47 occurred at 2017-05-11 7:3:55 - Equipment Failure detected.
+48|2017-05-25 2:52:4|Overload|NSE_6900|6|Substation255|Transformer|Event 48 occurred at 2017-05-25 2:52:4 - Overload detected.
+49|2017-05-18 12:52:49|Voltage Fluctuation|SBX_1294|3|Substation918|Circuit Breaker|Event 49 occurred at 2017-05-18 12:52:49 - Voltage Fluctuation detected.
+50|2017-05-8 17:19:56|Voltage Fluctuation|TNF_5540|1|Substation834|Transformer|Event 50 occurred at 2017-05-8 17:19:56 - Voltage Fluctuation detected.
+51|2017-05-5 8:37:13|Power Outage|VRU_7611|6|Substation233|Generator|Event 51 occurred at 2017-05-5 8:37:13 - Power Outage detected.
+52|2017-05-22 9:46:45|Voltage Fluctuation|SPZ_1223|5|Substation386|Generator|Event 52 occurred at 2017-05-22 9:46:45 - Voltage Fluctuation detected.
+53|2017-05-21 0:1:15|Power Outage|HUC_3921|7|Substation758|Generator|Event 53 occurred at 2017-05-21 0:1:15 - Power Outage detected.
+54|2017-05-17 16:36:56|Voltage Fluctuation|KMC_3966|4|Substation498|Circuit Breaker|Event 54 occurred at 2017-05-17 16:36:56 - Voltage Fluctuation detected.
+55|2017-05-6 2:50:47|Power Outage|HRL_7895|6|Substation190|Transformer|Event 55 occurred at 2017-05-6 2:50:47 - Power Outage detected.
+56|2017-05-26 18:59:38|Power Outage|CDB_4487|4|Substation660|Circuit Breaker|Event 56 occurred at 2017-05-26 18:59:38 - Power Outage detected.
+57|2017-05-15 5:43:8|Equipment Failure|SGN_1223|7|Substation120|Switchgear|Event 57 occurred at 2017-05-15 5:43:8 - Equipment Failure detected.
+58|2017-05-28 21:53:32|Power Outage|DKA_1036|7|Substation743|Transformer|Event 58 occurred at 2017-05-28 21:53:32 - Power Outage detected.
+59|2017-05-21 0:56:40|Equipment Failure|YND_0759|6|Substation609|Switchgear|Event 59 occurred at 2017-05-21 0:56:40 - Equipment Failure detected.
+60|2017-05-9 16:49:56|Equipment Failure|XZY_7013|6|Substation850|Generator|Event 60 occurred at 2017-05-9 16:49:56 - Equipment Failure detected.
+61|2017-05-6 3:8:8|Power Outage|FTK_9701|8|Substation499|Switchgear|Event 61 occurred at 2017-05-6 3:8:8 - Power Outage detected.
+62|2017-05-6 1:12:1|Power Outage|KKK_5923|3|Substation503|Generator|Event 62 occurred at 2017-05-6 1:12:1 - Power Outage detected.
+63|2017-05-27 2:52:31|Voltage Fluctuation|YZI_3953|1|Substation221|Transformer|Event 63 occurred at 2017-05-27 2:52:31 - Voltage Fluctuation detected.
+64|2017-05-17 5:57:0|Equipment Failure|KLN_0497|3|Substation692|Transformer|Event 64 occurred at 2017-05-17 5:57:0 - Equipment Failure detected.
+65|2017-05-14 9:9:55|Voltage Fluctuation|XPU_9431|5|Substation251|Switchgear|Event 65 occurred at 2017-05-14 9:9:55 - Voltage Fluctuation detected.
+66|2017-05-12 9:25:18|Voltage Fluctuation|MIW_2092|8|Substation282|Circuit Breaker|Event 66 occurred at 2017-05-12 9:25:18 - Voltage Fluctuation detected.
+67|2017-05-7 17:13:38|Equipment Failure|XXA_8391|8|Substation892|Circuit Breaker|Event 67 occurred at 2017-05-7 17:13:38 - Equipment Failure detected.
+68|2017-05-8 18:6:37|Voltage Fluctuation|YTW_3036|3|Substation608|Switchgear|Event 68 occurred at 2017-05-8 18:6:37 - Voltage Fluctuation detected.
+69|2017-05-10 6:49:17|Overload|FRL_0512|6|Substation787|Switchgear|Event 69 occurred at 2017-05-10 6:49:17 - Overload detected.
+70|2017-05-3 2:57:54|Overload|WZI_0024|4|Substation904|Transformer|Event 70 occurred at 2017-05-3 2:57:54 - Overload detected.
+71|2017-05-26 3:1:27|Voltage Fluctuation|VMS_1147|5|Substation706|Switchgear|Event 71 occurred at 2017-05-26 3:1:27 - Voltage Fluctuation detected.
+72|2017-05-23 21:1:12|Equipment Failure|AKO_4401|4|Substation201|Generator|Event 72 occurred at 2017-05-23 21:1:12 - Equipment Failure detected.
+73|2017-05-26 20:6:32|Power Outage|MHM_8030|8|Substation800|Transformer|Event 73 occurred at 2017-05-26 20:6:32 - Power Outage detected.
+74|2017-05-15 15:38:12|Voltage Fluctuation|WRQ_6397|2|Substation913|Generator|Event 74 occurred at 2017-05-15 15:38:12 - Voltage Fluctuation detected.
+75|2017-05-31 21:40:1|Voltage Fluctuation|NIQ_1472|3|Substation950|Transformer|Event 75 occurred at 2017-05-31 21:40:1 - Voltage Fluctuation detected.
+76|2017-05-20 1:18:58|Overload|LLL_7071|7|Substation853|Switchgear|Event 76 occurred at 2017-05-20 1:18:58 - Overload detected.
+77|2017-05-11 17:43:53|Voltage Fluctuation|LJI_6634|7|Substation616|Circuit Breaker|Event 77 occurred at 2017-05-11 17:43:53 - Voltage Fluctuation detected.
+78|2017-05-20 2:40:7|Equipment Failure|MNR_4043|7|Substation568|Switchgear|Event 78 occurred at 2017-05-20 2:40:7 - Equipment Failure detected.
+79|2017-05-4 3:17:11|Equipment Failure|ENO_4568|3|Substation533|Transformer|Event 79 occurred at 2017-05-4 3:17:11 - Equipment Failure detected.
+80|2017-05-10 11:33:26|Overload|NSV_6447|2|Substation430|Transformer|Event 80 occurred at 2017-05-10 11:33:26 - Overload detected.
+81|2017-05-14 11:19:46|Power Outage|DPP_0447|5|Substation247|Transformer|Event 81 occurred at 2017-05-14 11:19:46 - Power Outage detected.
+82|2017-05-31 17:26:19|Equipment Failure|EBU_6405|3|Substation966|Generator|Event 82 occurred at 2017-05-31 17:26:19 - Equipment Failure detected.
+83|2017-05-26 23:24:27|Overload|HEK_3374|7|Substation900|Generator|Event 83 occurred at 2017-05-26 23:24:27 - Overload detected.
+84|2017-05-14 12:26:25|Power Outage|NUG_0272|7|Substation627|Transformer|Event 84 occurred at 2017-05-14 12:26:25 - Power Outage detected.
+85|2017-05-10 11:38:43|Power Outage|AEV_1912|1|Substation161|Generator|Event 85 occurred at 2017-05-10 11:38:43 - Power Outage detected.
+86|2017-05-31 18:39:7|Equipment Failure|JIB_8442|4|Substation341|Switchgear|Event 86 occurred at 2017-05-31 18:39:7 - Equipment Failure detected.
+87|2017-05-14 16:47:55|Overload|NDU_8521|4|Substation359|Transformer|Event 87 occurred at 2017-05-14 16:47:55 - Overload detected.
+88|2017-05-29 11:34:25|Overload|LBL_8605|8|Substation190|Transformer|Event 88 occurred at 2017-05-29 11:34:25 - Overload detected.
+89|2017-05-14 6:8:42|Equipment Failure|LYM_9016|6|Substation279|Transformer|Event 89 occurred at 2017-05-14 6:8:42 - Equipment Failure detected.
+90|2017-05-29 2:25:48|Power Outage|FDN_1088|7|Substation111|Switchgear|Event 90 occurred at 2017-05-29 2:25:48 - Power Outage detected.
+91|2017-05-23 5:7:17|Equipment Failure|ULU_2834|4|Substation765|Transformer|Event 91 occurred at 2017-05-23 5:7:17 - Equipment Failure detected.
+92|2017-05-28 6:4:23|Voltage Fluctuation|UGJ_1101|7|Substation162|Switchgear|Event 92 occurred at 2017-05-28 6:4:23 - Voltage Fluctuation detected.
+93|2017-05-16 19:53:32|Voltage Fluctuation|AJS_1881|5|Substation781|Switchgear|Event 93 occurred at 2017-05-16 19:53:32 - Voltage Fluctuation detected.
+94|2017-05-13 13:33:24|Power Outage|KGF_5995|1|Substation630|Switchgear|Event 94 occurred at 2017-05-13 13:33:24 - Power Outage detected.
+95|2017-05-31 13:16:55|Overload|DOY_7817|3|Substation228|Switchgear|Event 95 occurred at 2017-05-31 13:16:55 - Overload detected.
+96|2017-05-28 2:33:30|Equipment Failure|RAY_3714|8|Substation605|Switchgear|Event 96 occurred at 2017-05-28 2:33:30 - Equipment Failure detected.
+97|2017-05-5 5:39:37|Voltage Fluctuation|ZVU_3244|4|Substation103|Transformer|Event 97 occurred at 2017-05-5 5:39:37 - Voltage Fluctuation detected.
+98|2017-05-30 7:47:52|Equipment Failure|QUU_0265|4|Substation515|Switchgear|Event 98 occurred at 2017-05-30 7:47:52 - Equipment Failure detected.
+99|2017-05-21 14:33:51|Voltage Fluctuation|VQW_4649|6|Substation509|Circuit Breaker|Event 99 occurred at 2017-05-21 14:33:51 - Voltage Fluctuation detected.
+100|2017-05-9 11:58:48|Equipment Failure|WNP_1407|3|Substation803|Circuit Breaker|Event 100 occurred at 2017-05-9 11:58:48 - Equipment Failure detected.
