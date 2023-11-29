@@ -40,6 +40,7 @@
 
 <script>
 import { currentGET } from 'api/modules'
+
 let style = {
     fontSize: 24
 }
@@ -116,8 +117,9 @@ export default {
             }
         },
         getData() {
+
             this.pageflag = true;
-            currentGET("big2").then((res) => {
+            currentGET("asset_detection_num").then((res) => {
                 if (!this.timer) {
                     console.log("设备总览", res);
                 }
@@ -146,7 +148,7 @@ export default {
                 }
             });
         },
-        //轮询
+        // 轮询
         switper() {
             if (this.timer) {
                 return

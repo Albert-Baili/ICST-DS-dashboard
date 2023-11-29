@@ -17,7 +17,9 @@ export const paramType ={
     'big6':'/bigscreen/installationPlan',// 安装计划
     'big7':'/bigscreen/ranking',// 报警排名
     'big8':'/bigscreen/centermap',// //中间地图
-
+    'asset_detection_info':'/api/asset_info',//获取资产探测信息
+    'asset_detection_num':'/api/asset_num',//获取资产探测统计数目
+    'asset_detection_graph':'/api/asset_gragh',//获取资产探测拓扑图
 }
 /******************      通用增删改查       ********************* */
 /**

@@ -18,23 +18,23 @@ export default {
                 activeRadius: '45%',
                 data: [
                     {
-                        name: '周口',
+                        name: '掩盖',
                         value: 55
                     },
                     {
-                        name: '南阳',
+                        name: '哈希',
                         value: 120
                     },
                     {
-                        name: '西峡',
+                        name: '映射',
                         value: 78
                     },
                     {
-                        name: '驻马店',
+                        name: '关联计算',
                         value: 66
                     },
                     {
-                        name: '新乡',
+                        name: '混合规则',
                         value: 80
                     }
                 ]

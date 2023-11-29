@@ -44,6 +44,7 @@ export default {
 .contetn_lr-item {
   height: 310px;
   padding: 0 10px 16px 10px;
+  width: 100%;
 }
 .contetn_center {
   width: 720px;
