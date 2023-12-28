@@ -26,8 +26,8 @@
               <router-link class="menu-title" to="/page2"
                 :class="{ 'active-link': isCurrentPage('/page2'), 'inactive-link': !isCurrentPage('/page2') }">数据安全管理</router-link>
               <router-link class="menu-title" to="/page3"
-                :class="{ 'active-link': isCurrentPage('/page3'), 'inactive-link': !isCurrentPage('/page3') }">数据质量管理</router-link>
-            </div>
+                :class="{ 'active-link': isCurrentPage('/page3'), 'inactive-link': !isCurrentPage('/page3') }">数据质量管理</router-link>              
+              </div>
             <div class="title">
               <span class="title-text">工业互联网数据安全管控平台</span>
             </div>
@@ -35,8 +35,9 @@
             </div>
           </div>
           <div class="timers">
-            {{ dateYear }} {{ dateWeek }} {{ dateDay }}
+            {{ dateYear }} {{ dateWeek }} {{ dateDay }} 
             <i class="blq-icon-shezhi02" style="margin-left: 10px" @click="showSetting"></i>
+            <i onclick="window.location.href='http://127.0.0.1:5000/manage/index'">后台管理系统</i>
           </div>
         </div>
         <!-- 头部 e-->

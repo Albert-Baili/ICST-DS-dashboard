@@ -10,7 +10,6 @@
     <div class="contetn_left">
       <div class="pagetab">
         <!-- <div class="item">实时监测</div> -->
-
       </div>
       <ItemWrap class="contetn_left-top contetn_lr-item" title="设备资产监测">
         <LeftTop />

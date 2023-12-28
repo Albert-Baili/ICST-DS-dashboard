@@ -91,8 +91,8 @@ def dealwithcsv(suggestions,file_id):
             print(row)
         return {'success': 'ok'}
 
-# suggestions = {'Age': 'range', 'Balance': 'range', 'Email': 'mask', 'User ID': 'none', 'Username': 'mask'}
-# file_id = '6ca37548cd36d1eeb91bc00f8a55ade8e0a5e75f2399b76fd239445fe3abad62'
-# dealwithcsv(suggestions, file_id)
-# print(tuominLists)
+suggestions = {'Age': 'range', 'Balance': 'range', 'Email': 'mask', 'User ID': 'none', 'Username': 'mask'}
+file_id = '6ca37548cd36d1eeb91bc00f8a55ade8e0a5e75f2399b76fd239445fe3abad62'
+dealwithcsv(suggestions, file_id)
+print(tuominLists)
 
