@@ -27,9 +27,9 @@ function countDeviceNum() {
     const a = Mock.mock({
         success: true,
         data: {
-            alarmNum: '@integer(100, 1000)',
+            alarmNum: '@integer(50, 200)',
             offlineNum: '@integer(0, 50)',
-            totalNum:698
+            totalNum:'@integer(1000,3000)',
         }
     })
     a.data.onlineNum=a.data.totalNum-a.data.offlineNum
@@ -61,6 +61,63 @@ function sbtx() {
     })
     return a
 }
+
+// // 定义随机生成IP地址的函数
+// function randomIP() {
+//     const ipSegments = [];
+//     for (let i = 0; i < 4; i++) {
+//         ipSegments.push(Mock.mock('@integer(0, 255)'));
+//     }
+//     return ipSegments.join('.');
+// }
+
+// // 定义随机生成MAC地址的函数
+// function randomMAC() {
+//     const macSegments = [];
+//     for (let i = 0; i < 6; i++) {
+//         macSegments.push(Mock.mock('@string("0123456789ABCDEF", 2)'));
+//     }
+//     return macSegments.join(':');
+// }
+// function sbtx() {
+//     const deviceNames = [
+//         "Beijing Xiaomi Mobile Software",
+//         "Personal Computer",
+//         "CyberTAN Technology",
+//         "Micro-Star Intl",
+//         "Microsoft",
+//         "Ruijie Networks",
+//         "Huawei Technology",
+//     ];
+//     const a = Mock.mock({
+//         success: true,
+//         data: {
+//             "list|20": [
+//                 {
+//                     "devicename": function () {
+//                             return Mock.mock('@pick(' + JSON.stringify(deviceNames) + ')');
+//                         },
+//                     "deviceip": function(){
+//                         const ipSegments = [];
+//                         for (let i = 0; i < 4; i++) {
+//                             ipSegments.push(Mock.mock('@integer(0, 255)'));
+//                         }
+//                         return ipSegments.join('.');
+//                     },
+//                     "devicemac": function(){
+//                         const macSegments = [];
+//                         for (let i = 0; i < 6; i++) {
+//                             macSegments.push(Mock.mock('@string("0123456789ABCDEF", 2)'));
+//                         }
+//                         return macSegments.join(':');
+//                     },
+//                     "onlineState|1": 1,
+//                 }
+//             ]
+//         }
+//     })
+//     return a
+// }
 
 Mock.mock(new RegExp('sbtx'), 'get', sbtx)
 
