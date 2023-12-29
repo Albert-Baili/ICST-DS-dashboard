@@ -8,14 +8,14 @@
         style="padding: 0 10px 16px 10px; height:280px">
         <test />
       </ItemWrap>
-      <ItemWrap class="contetn_left-bottom contetn_lr-item" title="地图测试" style="padding: 0 10px 16px 10px ;height:40%">
+      <!-- <ItemWrap class="contetn_left-bottom contetn_lr-item" title="地图测试" style="padding: 0 10px 16px 10px ;height:40%">
         <test2 />
-      </ItemWrap>
+      </ItemWrap> -->
     </div>
     <div class="contetn_center">
-      <dv-border-box-12>
+      <!-- <dv-border-box-12>
         <tuominList />
-      </dv-border-box-12>
+      </dv-border-box-12> -->
     </div>
     <div class="contetn_right"></div>
   </div>
