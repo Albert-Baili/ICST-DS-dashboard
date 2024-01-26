@@ -19,10 +19,10 @@ export default {
       gatewayno: '',
       config: {
         showValue: true,
-        unit: "次",
+        unit: "G",
         data: []
       },
-
+      timer:100000
     };
   },
   created() {
@@ -39,7 +39,7 @@ export default {
     clearData() {
       if (this.timer) {
         clearInterval(this.timer)
-        this.timer = null
+        this.timer = 1000000
       }
     },
     //轮询
@@ -58,7 +58,7 @@ export default {
       currentGET('big7', { gatewayno: this.gatewayno }).then(res => {
 
         if (!this.timer) {
-          console.log('报警排名', res);
+          console.log('数据分级分类', res);
         }
         if (res.success) {
           this.config = {

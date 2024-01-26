@@ -30,7 +30,7 @@
             <div class="user_Overview_nums laramnum">
                 <dv-digital-flop :config="laramnumconfig" style="width:100%;height:100%;" />
             </div>
-            <p>告警次数</p>
+            <p>异常数</p>
         </li>
     </ul>
     <Reacquire v-else @onclick="getData" line-height="200px">
@@ -54,7 +54,7 @@ export default {
                 totalNum: 0,
             },
             pageflag: true,
-            timer: null,
+            timer: 10000,
             config: {
                 number: [100],
                 content: '{nt}',

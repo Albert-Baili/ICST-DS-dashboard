@@ -46,19 +46,19 @@
 
 
 
-      <ItemWrap class="contetn_center-bottom" title="生产状况分析">
+      <ItemWrap class="contetn_center-bottom" title="通信信道分析">
         <!-- 安装计划 -->
         <CenterBottom />
       </ItemWrap>
     </div>
     <div class="contetn_right">
-      <ItemWrap class="contetn_left-bottom contetn_lr-item" title="报警次数">
+      <ItemWrap class="contetn_left-bottom contetn_lr-item" title="系统风险监测">
         <RightTop />
       </ItemWrap>
-      <ItemWrap class="contetn_left-bottom contetn_lr-item" title="异常数据告警" style="padding: 0 10px 16px 10px">
+      <ItemWrap class="contetn_left-bottom contetn_lr-item" title="数据脱敏记录" style="padding: 0 10px 16px 10px">
         <RightBottom />
       </ItemWrap>
-      <ItemWrap class="contetn_left-bottom contetn_lr-item" title="告警排名">
+      <ItemWrap class="contetn_left-bottom contetn_lr-item" title="数据分级分类结果">
         <RightCenter />
       </ItemWrap>
     </div>

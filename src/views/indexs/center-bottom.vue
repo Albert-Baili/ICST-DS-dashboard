@@ -76,7 +76,7 @@ export default {
           },
         },
         legend: {
-          data: ["已安装", "计划安装", "安装率"],
+          data: ["正在使用", "空闲", "使用率"],
           textStyle: {
             color: "#B4B4B4",
           },
@@ -126,7 +126,7 @@ export default {
         ],
         series: [
           {
-            name: "已安装",
+            name: "正在使用",
             type: "bar",
             barWidth: 10,
             itemStyle: {
@@ -139,7 +139,7 @@ export default {
             data: newData.barData,
           },
           {
-            name: "计划安装",
+            name: "空闲",
             type: "bar",
             barGap: "-100%",
             barWidth: 10,
@@ -155,7 +155,7 @@ export default {
             data: newData.lineData,
           },
           {
-            name: "安装率",
+            name: "使用率",
             type: "line",
             smooth: true,
             showAllSymbol: true,

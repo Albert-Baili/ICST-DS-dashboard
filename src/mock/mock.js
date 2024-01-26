@@ -167,7 +167,7 @@ function alarmNum() {
     const a = Mock.mock({
         success: true,
         data: {
-            dateList:['2021-11', '2021-12', '2022-01', '2022-02', '2022-03',"2022-04"],
+            dateList:['2022-11', '2022-12', '2023-01', '2023-02', '2023-03',"2023-04"],
             "numList|6":[
                 '@integer(0, 1000)'
             ],
@@ -210,7 +210,7 @@ Mock.mock(new RegExp('ssyj'), 'get', ssyj)
 function installationPlan() {
     let num=  RandomNumBoth(26,32);
     const a = Mock.mock({
-        ["category|"+num]:["@city()"],
+        ["category|"+num]:["@datetime('MM-dd')"],
         ["barData|"+num]:["@integer(10, 100)"],
     })
     let lineData=[],rateData=[];
@@ -234,8 +234,13 @@ Mock.mock(new RegExp('installationPlan'), 'get', installationPlan)
 
 //报警排名 
 function ranking() {
+    const cities = ["传感器数据", "工业生产数据", "用户数据", "操作数据", "日志数据", "质量数据", "状态数据", "工业环境数据", "供应链数据", "市场数据"];
+
    //多生成几个避免重复 重复会报错
-  let num =Mock.mock({"list|48":[{ value:"@integer(50,1000)",name:"@city()"}]}).list
+  let num =Mock.mock({"list|48":[{ value:"@integer(50,1000)",name:function() {
+    // 从指定的城市列表中随机选择一个
+    return cities[Math.floor(Math.random() * cities.length)];
+}}]}).list
 //   console.log(num);
   let newNum =[],numObj={}
   num.map(item=>{

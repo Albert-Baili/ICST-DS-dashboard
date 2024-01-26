@@ -19,15 +19,15 @@
 
           <div class="d-flex jc-center">
             <div class="menu-container">
-              <router-link class="menu-title" to="/index"
-                :class="{ 'active-link': isCurrentPage('/index'), 'inactive-link': !isCurrentPage('/index') }">大屏首页</router-link>
+                <router-link class="menu-title" to="/index"
+                  :class="{ 'active-link': isCurrentPage('/index'), 'inactive-link': !isCurrentPage('/index') }">大屏首页</router-link>
               <router-link class="menu-title" to="/page1"
                 :class="{ 'active-link': isCurrentPage('/page1'), 'inactive-link': !isCurrentPage('/page1') }">数据资产管理</router-link>
               <router-link class="menu-title" to="/page2"
                 :class="{ 'active-link': isCurrentPage('/page2'), 'inactive-link': !isCurrentPage('/page2') }">数据安全管理</router-link>
               <router-link class="menu-title" to="/page3"
-                :class="{ 'active-link': isCurrentPage('/page3'), 'inactive-link': !isCurrentPage('/page3') }">数据质量管理</router-link>              
-              </div>
+                :class="{ 'active-link': isCurrentPage('/page3'), 'inactive-link': !isCurrentPage('/page3') }">数据质量管理</router-link>
+            </div>
             <div class="title">
               <span class="title-text">工业互联网数据安全管控平台</span>
             </div>
@@ -35,9 +35,12 @@
             </div>
           </div>
           <div class="timers">
-            {{ dateYear }} {{ dateWeek }} {{ dateDay }} 
-            <i class="blq-icon-shezhi02" style="margin-left: 10px" @click="showSetting"></i>
-            <i onclick="window.location.href='http://127.0.0.1:5000/manage/index'">后台管理系统</i>
+            <i class="blq-icon-shezhi02" style="margin-right: 10px;" @click="showSetting"></i>
+
+            {{ dateYear }} {{ dateWeek }} {{ dateDay }}
+            <el-button style="font-size: xx-large;margin-left: 10px; color:#01AAFF ;" type="text" icon="el-icon-set-up"
+              size="medium" onclick="window.location.href='http://127.0.0.1:5000/manage/index'"></el-button>
+            <!-- <i onclick="window.location.href='http://127.0.0.1:5000/manage/index'">后台管理系统</i> -->
           </div>
         </div>
         <!-- 头部 e-->
@@ -130,12 +133,22 @@ export default {
   left: -200px;
 }
 
+
 /* 当前页面的链接样式 */
 .active-link {
-  color: rgb(38, 83, 232);
+  font-size: 20px;
+    font-weight: 400;
+    background: linear-gradient(92deg,
+        #75a7e4 0%,
+        #00eaff 48.8525390625%,
+        #01aaff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 10px;
 }
 
 /* 其他页面的链接样式 */
 .inactive-link {
   color: gray;
-}</style>
+}
+</style>

@@ -197,7 +197,7 @@ export default {
                     padding: [7, 14],
                     borderWidth: 0.5,
                     borderColor: "rgba(252,144,16,.5)",
-                    formatter: "报警1：{c}",
+                    formatter: "异常日志数：{c}",
                   },
                 },
                 {
@@ -264,7 +264,7 @@ export default {
                     borderRadius: 6,
                     borderColor: "rgba(9,202,243,.5)",
                     padding: [7, 14],
-                    formatter: "报警2：{c}",
+                    formatter: "访问次数：{c}",
                     borderWidth: 0.5,
                   },
                 },
