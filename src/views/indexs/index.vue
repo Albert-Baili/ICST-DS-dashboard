@@ -29,10 +29,10 @@
       </ItemWrap> -->
       <dv-border-box-10 class="contetn_center-center">
         <div class="contetn_center-flop-list">
-          <p class="flop-list-tittle">今日报警</p>
-          <p class="flop-list-tittle"> 设备数量</p>
+          <p class="flop-list-tittle">通信信道</p>
           <p class="flop-list-tittle">数据总量</p>
           <p class="flop-list-tittle">敏感数据</p>
+          <p class="flop-list-tittle">异常日志</p>
         </div>
         <div class="contetn_center-flop-list">
           <dv-digital-flop class="contetn_center-flop" :config="config" animationCure="easeOutQuad" animationFrame=50
@@ -89,20 +89,20 @@ export default {
   data() {
     return {
       config: {
-        number: [1460],
+        number: [160],
         content: '{nt}条',
       },
       config2: {
-        number: [259],
-        content: '{nt}个',
+        number: [2539],
+        content: '{nt}G',
       },
       config3: {
-        number: [4791],
+        number: [791],
         content: '{nt}G',
       },
       config4: {
         number: [289],
-        content: '{nt}G',
+        content: '{nt}条',
       },
     };
   },
